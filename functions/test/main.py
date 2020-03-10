@@ -1,3 +1,3 @@
-def test():
-    print ("Hello World!")
-test()
+from flask import escape
+def test(request):
+    return "Hello World again!!!"
