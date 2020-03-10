@@ -1,4 +1,4 @@
 steps:
   - name: 'gcr.io/cloud-builders/gcloud'
     id: 'deployMyFunction'
-    args: ['functions', 'deploy','test', '--source' , 'functions/test.py', '--runtime' , 'python37' ,'--trigger-http']
+    args: ['functions', 'deploy','test', '--source' , 'functions/test', '--runtime' , 'python37' ,'--trigger-http']
